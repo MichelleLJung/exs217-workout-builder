@@ -1830,5 +1830,901 @@ window.EXS217_MOVEMENTS = [
       "Range",
       "Work time"
     ]
+  },
+  {
+    "id": "bodyweight-step-touch",
+    "name": "Step Touch",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Low",
+    "space": "Open floor",
+    "emphasis": "Step sideways and bring the trailing foot in for a light tap; alternate sides.",
+    "cues": [
+      "Face forward",
+      "Keep knees soft",
+      "Use a comfortable arm swing"
+    ],
+    "reduce": [
+      "Take smaller steps",
+      "Slow the rhythm"
+    ],
+    "increase": [
+      "Increase controlled travel",
+      "Add larger arm movements"
+    ],
+    "watch": [
+      "Feet crossing unintentionally",
+      "Losing balance at the tap"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-double-step-touch",
+    "name": "Double Step Touch",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Take two side steps in one direction, then two back, tapping the trailing foot after each step.",
+    "cues": [
+      "Preview the pattern slowly",
+      "Leave room to travel",
+      "Keep steps controlled"
+    ],
+    "reduce": [
+      "Use a single step touch",
+      "Reduce travel"
+    ],
+    "increase": [
+      "Increase cadence within control",
+      "Add coordinated arm movements"
+    ],
+    "watch": [
+      "Traveling into another station",
+      "Pattern breaking down"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-grapevine",
+    "name": "Grapevine",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Step sideways, cross the trailing foot behind, step sideways again, and tap; repeat in the other direction.",
+    "cues": [
+      "Teach the crossing pattern slowly",
+      "Keep steps small initially",
+      "Face forward"
+    ],
+    "reduce": [
+      "Use side steps without crossing",
+      "Slow the pattern"
+    ],
+    "increase": [
+      "Increase controlled travel",
+      "Add arm movement"
+    ],
+    "watch": [
+      "Tripping during crossover",
+      "Turning on a planted foot"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-heel-dig-arm-reach",
+    "name": "Heel Dig + Arm Reach",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Low",
+    "space": "Open floor",
+    "emphasis": "Alternate placing one heel forward while reaching the arms within a comfortable range.",
+    "cues": [
+      "Keep weight on the supporting leg",
+      "Tap the heel lightly",
+      "Return to center"
+    ],
+    "reduce": [
+      "Reduce reach",
+      "Slow cadence"
+    ],
+    "increase": [
+      "Increase arm range",
+      "Increase rhythm within control"
+    ],
+    "watch": [
+      "Leaning backward",
+      "Overreaching"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-alternating-hamstring-curls",
+    "name": "Alternating Hamstring Curls",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Low",
+    "space": "Open floor",
+    "emphasis": "Alternate standing heel curls while shifting weight side to side.",
+    "cues": [
+      "Keep knees soft",
+      "Stay upright",
+      "Place each foot down before switching"
+    ],
+    "reduce": [
+      "Reduce curl height",
+      "Use smaller weight shifts"
+    ],
+    "increase": [
+      "Add arm pulls",
+      "Increase cadence within control"
+    ],
+    "watch": [
+      "Arching the back",
+      "Loss of balance"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-standing-cross-body-knee-drive",
+    "name": "Standing Cross-Body Knee Drive",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Alternate knee lifts toward the opposite hand without jumping.",
+    "cues": [
+      "Stay tall",
+      "Bring the hand toward the knee",
+      "Rotate only through a comfortable range"
+    ],
+    "reduce": [
+      "Lower the knee lift",
+      "Remove rotation"
+    ],
+    "increase": [
+      "Add larger controlled arm movements",
+      "Increase rhythm"
+    ],
+    "watch": [
+      "Pulling on the neck",
+      "Leaning backward"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-standing-mountain-climber",
+    "name": "Standing Mountain Climber",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Low",
+    "space": "Open floor",
+    "emphasis": "Alternate marching knee drives with opposite arm reaches overhead.",
+    "cues": [
+      "Keep one foot grounded",
+      "Reach within shoulder comfort",
+      "Stay tall"
+    ],
+    "reduce": [
+      "Keep arms below shoulder height",
+      "Lower knee height"
+    ],
+    "increase": [
+      "Increase controlled cadence",
+      "Increase arm range"
+    ],
+    "watch": [
+      "Back arching during reach",
+      "Hopping unintentionally"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-alternating-front-kicks",
+    "name": "Alternating Front Kicks",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Alternate low controlled forward kicks while stepping between repetitions.",
+    "cues": [
+      "Keep kicks low initially",
+      "Avoid locking the knee",
+      "Return the foot under control"
+    ],
+    "reduce": [
+      "Use heel digs",
+      "Reduce kick height"
+    ],
+    "increase": [
+      "Add coordinated arm action",
+      "Increase cadence within control"
+    ],
+    "watch": [
+      "Throwing the leg",
+      "Leaning backward"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-shadow-boxing-march",
+    "name": "Shadow Boxing + March",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "March while alternating unloaded punches in front of the body.",
+    "cues": [
+      "Keep wrists aligned",
+      "Avoid locking elbows",
+      "Keep punches controlled"
+    ],
+    "reduce": [
+      "Stand in place",
+      "Reduce punch range"
+    ],
+    "increase": [
+      "Increase controlled rhythm",
+      "Add small forward and backward steps"
+    ],
+    "watch": [
+      "Overextending elbows",
+      "Twisting through planted knees"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-floor-v-step",
+    "name": "Floor V-Step",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Step forward and wide, then backward and narrow, making a V pattern on the floor.",
+    "cues": [
+      "Step wide within control",
+      "Return to the starting space",
+      "Change the lead leg periodically"
+    ],
+    "reduce": [
+      "Reduce step size",
+      "Slow the pattern"
+    ],
+    "increase": [
+      "Add coordinated arm action",
+      "Increase cadence"
+    ],
+    "watch": [
+      "Crossing feet on return",
+      "Losing the lead pattern"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-squat-to-calf-raise",
+    "name": "Squat to Calf Raise",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Perform a comfortable squat, stand, and rise onto the toes without jumping.",
+    "cues": [
+      "Track knees with feet",
+      "Stand before lifting heels",
+      "Lower heels under control"
+    ],
+    "reduce": [
+      "Use a shallower squat",
+      "Omit the heel raise"
+    ],
+    "increase": [
+      "Add an arm reach",
+      "Increase cadence while preserving balance"
+    ],
+    "watch": [
+      "Rushing the squat",
+      "Losing balance on toes"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-step-back-burpee-no-jump",
+    "name": "Step-Back Burpee (No Jump)",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "High",
+    "space": "Open floor",
+    "emphasis": "Place hands on the floor, step each foot back to plank, step forward, and stand; no push-up or jump.",
+    "cues": [
+      "Set hands before stepping back",
+      "Keep the trunk supported",
+      "Stand under control"
+    ],
+    "reduce": [
+      "Use a stable elevated hand support",
+      "Replace with standing knee drives"
+    ],
+    "increase": [
+      "Increase controlled repetition rate",
+      "Lengthen the work bout only while technique holds"
+    ],
+    "watch": [
+      "Trunk sagging",
+      "Rushing floor transitions"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "bodyweight-forward-back-march",
+    "name": "Forward / Back March",
+    "category": "Bodyweight",
+    "impact": "Low",
+    "complexity": "Low",
+    "space": "Open floor",
+    "emphasis": "March forward a few steps and return backward within a clear lane.",
+    "cues": [
+      "Check the return path",
+      "Use short backward steps",
+      "Keep a steady arm swing"
+    ],
+    "reduce": [
+      "March in place",
+      "Reduce travel"
+    ],
+    "increase": [
+      "Increase controlled cadence",
+      "Add arm movements"
+    ],
+    "watch": [
+      "Backing into obstacles",
+      "Crossing station boundaries"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "cones-brisk-walk-shuttle",
+    "name": "Brisk-Walk Shuttle",
+    "category": "Cones",
+    "impact": "Low",
+    "complexity": "Low",
+    "space": "Open floor",
+    "emphasis": "Walk briskly between markers, slowing before each turn.",
+    "cues": [
+      "Keep a clear lane",
+      "Decelerate before turning",
+      "Turn with several small steps"
+    ],
+    "reduce": [
+      "Shorten the lane",
+      "Use an easier pace"
+    ],
+    "increase": [
+      "Increase walking pace",
+      "Lengthen the continuous bout"
+    ],
+    "watch": [
+      "Pivoting sharply",
+      "Crowding turns"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "cones-slalom-weave",
+    "name": "Slalom Weave",
+    "category": "Cones",
+    "impact": "Variable",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Walk or jog through staggered cones using smooth curved turns.",
+    "cues": [
+      "Look ahead",
+      "Control speed into turns",
+      "Leave adequate spacing"
+    ],
+    "reduce": [
+      "Walk the route",
+      "Widen turns"
+    ],
+    "increase": [
+      "Jog if appropriate",
+      "Increase controlled pace"
+    ],
+    "watch": [
+      "Cutting across another lane",
+      "Abrupt direction changes"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "cones-triangle-travel",
+    "name": "Triangle Travel",
+    "category": "Cones",
+    "impact": "Variable",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Travel around three markers in a triangle, using a walk or jog.",
+    "cues": [
+      "Establish one-way traffic",
+      "Slow before each corner",
+      "Look toward the next marker"
+    ],
+    "reduce": [
+      "Walk",
+      "Use a smaller route"
+    ],
+    "increase": [
+      "Increase controlled jogging pace",
+      "Lengthen the bout"
+    ],
+    "watch": [
+      "Sharp pivots",
+      "Participants converging at corners"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "cones-lateral-step-and-tap",
+    "name": "Lateral Step-and-Tap",
+    "category": "Cones",
+    "impact": "Low",
+    "complexity": "Low",
+    "space": "Open floor",
+    "emphasis": "Side step between two markers and tap a foot beside each marker without bending to touch the floor.",
+    "cues": [
+      "Face forward",
+      "Keep feet from crossing",
+      "Control the turnaround"
+    ],
+    "reduce": [
+      "Shorten distance",
+      "Slow the rhythm"
+    ],
+    "increase": [
+      "Increase step cadence",
+      "Add arm movement"
+    ],
+    "watch": [
+      "Crossing feet",
+      "Stepping onto cones"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "ladders-forward-march-through-squares",
+    "name": "Forward March Through Squares",
+    "category": "Ladders",
+    "impact": "Low",
+    "complexity": "Low",
+    "space": "Open floor",
+    "emphasis": "March through the ladder with one controlled foot placement per square.",
+    "cues": [
+      "Lift feet clear of rungs",
+      "Start slowly",
+      "Continue into a clear exit lane"
+    ],
+    "reduce": [
+      "Use floor markings",
+      "Slow cadence"
+    ],
+    "increase": [
+      "Increase controlled cadence",
+      "Add arm swing"
+    ],
+    "watch": [
+      "Looking away before learning the route",
+      "Catching a rung"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "ladders-lateral-in-out-step",
+    "name": "Lateral In-Out Step",
+    "category": "Ladders",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Move sideways along the ladder, stepping both feet into a square and both out before advancing.",
+    "cues": [
+      "Teach slowly",
+      "Keep steps small",
+      "Clear each rung"
+    ],
+    "reduce": [
+      "Use floor markings",
+      "Break the pattern into parts"
+    ],
+    "increase": [
+      "Increase controlled rhythm",
+      "Lengthen the work bout"
+    ],
+    "watch": [
+      "Crossing feet",
+      "Speed exceeding coordination"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "step-alternating-step-up-tap",
+    "name": "Alternating Step-Up + Tap",
+    "category": "Step",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Step up, tap the trailing foot on top, step down, and switch the lead leg.",
+    "cues": [
+      "Place the whole lead foot on top",
+      "Tap lightly",
+      "Control the descent"
+    ],
+    "reduce": [
+      "Use a lower platform",
+      "Perform the pattern on the floor"
+    ],
+    "increase": [
+      "Add arm swing",
+      "Increase cadence within control"
+    ],
+    "watch": [
+      "Heel hanging off edge",
+      "Dropping quickly to the floor"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "step-step-up-side-leg-lift",
+    "name": "Step-Up + Side Leg Lift",
+    "category": "Step",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Step onto the platform, lift the free leg slightly to the side, then step down and alternate.",
+    "cues": [
+      "Keep the supporting foot secure",
+      "Keep trunk upright",
+      "Use a small controlled leg lift"
+    ],
+    "reduce": [
+      "Omit leg lift",
+      "Use the floor"
+    ],
+    "increase": [
+      "Add coordinated arms",
+      "Increase rhythm while keeping balance"
+    ],
+    "watch": [
+      "Leaning sideways",
+      "Foot placement near edge"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "step-alternating-corner-knee",
+    "name": "Alternating Corner Knee",
+    "category": "Step",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Alternate step-ups toward each platform corner with an opposite knee lift, returning to the floor between sides.",
+    "cues": [
+      "Place the full foot on the platform",
+      "Face the working corner with small steps",
+      "Control each descent"
+    ],
+    "reduce": [
+      "Use a tap instead of a knee lift",
+      "Use a lower platform"
+    ],
+    "increase": [
+      "Add arm action",
+      "Increase controlled cadence"
+    ],
+    "watch": [
+      "Twisting on a planted foot",
+      "Missing the platform edge"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "battle-ropes-alternating-waves-march",
+    "name": "Alternating Waves + March",
+    "category": "Battle Ropes",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Maintain alternating rope waves while marching in place.",
+    "cues": [
+      "Establish waves first",
+      "Keep steps small",
+      "Maintain control of trunk and rope ends"
+    ],
+    "reduce": [
+      "Use a stationary stance",
+      "Slow waves"
+    ],
+    "increase": [
+      "Increase wave cadence",
+      "Increase marching rhythm within control"
+    ],
+    "watch": [
+      "Losing wave pattern",
+      "Stepping onto ropes"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "battle-ropes-double-waves-squat",
+    "name": "Double Waves + Squat",
+    "category": "Battle Ropes",
+    "impact": "Low",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Combine double rope waves with a controlled shallow squat and stand.",
+    "cues": [
+      "Practice squat before combining",
+      "Keep feet planted",
+      "Use comfortable shoulder range"
+    ],
+    "reduce": [
+      "Omit squat",
+      "Make smaller waves"
+    ],
+    "increase": [
+      "Increase wave amplitude within control",
+      "Increase squat range if appropriate"
+    ],
+    "watch": [
+      "Trunk rounding",
+      "Squat alignment changing with fatigue"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "balls-ball-hold-heel-digs",
+    "name": "Ball Hold + Heel Digs",
+    "category": "Balls",
+    "impact": "Low",
+    "complexity": "Low",
+    "space": "Open floor",
+    "emphasis": "Hold a light ball near the chest while alternating forward heel taps.",
+    "cues": [
+      "Keep load close",
+      "Tap heels lightly",
+      "Maintain upright posture"
+    ],
+    "reduce": [
+      "Use no ball",
+      "Slow cadence"
+    ],
+    "increase": [
+      "Increase controlled cadence",
+      "Add a small comfortable forward reach"
+    ],
+    "watch": [
+      "Leaning away from ball",
+      "Loss of load control"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "balls-ball-hold-lateral-steps",
+    "name": "Ball Hold + Lateral Steps",
+    "category": "Balls",
+    "impact": "Low",
+    "complexity": "Low",
+    "space": "Open floor",
+    "emphasis": "Hold a light ball close to the chest while taking controlled side steps.",
+    "cues": [
+      "Keep feet from crossing",
+      "Keep ball close",
+      "Leave clear travel space"
+    ],
+    "reduce": [
+      "Use no ball",
+      "Reduce travel"
+    ],
+    "increase": [
+      "Increase controlled cadence",
+      "Lengthen the work bout"
+    ],
+    "watch": [
+      "Crossing feet",
+      "Leaning away from load"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "plyometrics-forward-back-line-hops",
+    "name": "Forward / Back Line Hops",
+    "category": "Plyometrics",
+    "impact": "High",
+    "complexity": "Moderate",
+    "space": "Open floor",
+    "emphasis": "Use small two-foot hops forward and backward across a flat floor line.",
+    "cues": [
+      "Keep the line flat",
+      "Land softly with knees aligned",
+      "Keep hops small"
+    ],
+    "reduce": [
+      "Step across the line",
+      "Pause between hops"
+    ],
+    "increase": [
+      "Increase rhythm only with controlled landings",
+      "Lengthen the bout conservatively"
+    ],
+    "watch": [
+      "Stiff landings",
+      "Backward travel exceeding control"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
+  },
+  {
+    "id": "plyometrics-diagonal-jump-and-stick",
+    "name": "Diagonal Jump and Stick",
+    "category": "Plyometrics",
+    "impact": "High",
+    "complexity": "High",
+    "space": "Open floor",
+    "emphasis": "Jump a short distance diagonally and hold the landing before resetting.",
+    "cues": [
+      "Check landing space",
+      "Land on both feet with control",
+      "Reset before the next jump"
+    ],
+    "reduce": [
+      "Step diagonally",
+      "Use a smaller jump"
+    ],
+    "increase": [
+      "Increase distance only if landing holds",
+      "Alternate diagonals"
+    ],
+    "watch": [
+      "Knee alignment loss",
+      "Rushing the reset"
+    ],
+    "variables": [
+      "Cadence",
+      "Range",
+      "Work time",
+      "Recovery"
+    ]
   }
 ];
