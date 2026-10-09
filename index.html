@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EXS217 Cardio Workout Builder</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><h1>EXS217 Cardio Workout Builder</h1><p>Choose movements, organize the main workout, and review your design before you coach.</p></header>
+<main class="wrap">
+<section id="library"><div class="section-head"><div><h2>1. Choose Exercises</h2><p>Use the movement bank for ideas and coaching support, or add an exercise of your own. You make the programming decisions.</p></div><button type="button" class="primary" id="openCustom">+ Add Your Own Exercise</button></div>
+<nav class="tabs" id="tabs" aria-label="Movement categories"></nav>
+<div class="tools"><label>Search<input id="search" type="search" placeholder="Search movements or equipment"></label><label>Impact<select id="impact"><option value="">All impact levels</option><option>Low</option><option>Low–Moderate</option><option>Moderate</option><option>Moderate–High</option><option>High</option><option>Variable</option></select></label><label>Equipment<select id="equipment"><option value="">All equipment</option><option>Bike</option><option>Battle Ropes</option><option>Ball</option><option>Cones</option><option>Agility Ladder</option><option>Step</option><option>Plyo Box</option><option>No Equipment</option></select></label></div>
+<div id="customForm" class="custom-form" hidden><h3>Add Your Own Exercise</h3><div class="form-grid"><label>Exercise name *<input id="customName" type="text"></label><label>Type *<select id="customType"><option>Cardio</option><option>Resistance</option><option>Mobility / Recovery</option><option>Other</option></select></label><label>Equipment<input id="customEquipment" type="text" placeholder="Optional"></label><label>Impact<select id="customImpact"><option>Unsure</option><option>Low</option><option>Low–Moderate</option><option>Moderate</option><option>Moderate–High</option><option>High</option><option>Not applicable</option></select></label></div><div class="actions"><button type="button" class="primary" id="saveCustom">Add Exercise</button><button type="button" id="cancelCustom">Cancel</button></div><p id="customError" class="error" role="alert"></p></div>
+<p class="small" id="resultCount"></p><div class="movement-list" id="cards"></div>
+<div class="selected-tray"><h3>My Exercises <span id="selCount" class="small"></span></h3><p class="small">These are available to place into any workout block. The same exercise can be used more than once.</p><div id="selectedList"></div><div id="selectedEmpty" class="empty">Choose exercises above to start building.</div></div></section>
+
+<section id="builder"><div class="section-head"><div><h2>2. Build Your Workout</h2><p>Organize the <strong>main workout only</strong>. Create as many blocks or stations as your design needs.</p></div><button type="button" class="primary" id="addBlock">+ Add Block / Station</button></div>
+<div class="note">You are responsible for designing the warm-up, cool-down, intensity plan, modifications, and complete teaching session.</div>
+<div id="blocks"></div></section>
+
+<section id="review"><h2>3. Review Your Design</h2><p>These prompts are not an answer key. Use them to check your own programming decisions before you coach.</p>
+<div class="time-review"><label>Total teaching time available (min)<input id="totalTime" type="number" min="1" max="180" value="45"></label><div><span>Main workout time entered</span><strong id="mainTime">0 min</strong></div><div><span>Time remaining outside main workout</span><strong id="remainingTime">45 min</strong></div></div>
+<div id="equipmentSummary" class="equipment-summary"><strong>Equipment used:</strong> None added yet.</div>
+<h3 class="review-subhead">Before You Coach</h3>
+<div class="review-list">
+<label><input type="checkbox"> Have I left enough time for my introduction and instructions?</label>
+<label><input type="checkbox"> Have I left enough time to demonstrate the exercises that need demonstration?</label>
+<label><input type="checkbox"> Have I left enough time for the warm-up I designed?</label>
+<label><input type="checkbox"> Have I accounted for transitions that are not already included in my blocks?</label>
+<label><input type="checkbox"> Have I left enough time for the cool-down I designed?</label>
+<label><input type="checkbox"> Does at least 70% of my workout meet the required cardiorespiratory focus?</label>
+<label><input type="checkbox"> Have I determined the intended intensity and how I will monitor it?</label>
+<label><input type="checkbox"> Am I prepared with appropriate modifications when a participant needs a change?</label>
+<label><input type="checkbox"> Will my equipment setup work for the number of participants?</label>
+<label><input type="checkbox"> Does the order and flow of my workout make sense?</label>
+<label><input type="checkbox"> Will participants know what to do, where to go, and when to change?</label>
+</div>
+<div class="review-note"><strong>Final check:</strong> The builder organizes the main workout you designed. It does not determine whether your programming choices are appropriate or complete.</div>
+<div class="actions no-print"><button type="button" class="primary" id="print">Print / Save Workout Plan</button></div></section>
+</main>
+<script src="data/movements.js"></script><script src="app.js"></script>
+</body></html>
